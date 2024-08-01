@@ -58,7 +58,7 @@ DB_TYPE=POSTGRESQL
 Após a instalação, sua estrutura de diretórios do projeto deve se parecer com isso:
 
 ```
-/seu_projeto
+/zup2sql
 |-- /vendor
 |-- composer.json
 |-- composer.lock
@@ -75,7 +75,7 @@ Você pode agora executar o script usando o terminal, fornecendo o caminho do ar
 Para especificar um arquivo:
 
 ```sh
-php zup2sql.php /mnt/data/ZeusRetail_2_14_154_0.ZUP
+php zup2sql.php /mnt/data/SEU_ARQUIVO.ZUP
 ```
 
 Para processar automaticamente o próximo arquivo não processado no diretório raiz:
