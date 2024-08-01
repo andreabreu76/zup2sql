@@ -1,0 +1,8 @@
+.env
+.idea/
+*.log
+./vendor
+*.ZUP
+*.txt
+*.sql
+*.tmp

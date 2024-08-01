@@ -1,0 +1,21 @@
+{
+    "name": "andreabreu/zup2sql",
+    "description": "Convert personalized ZUP files with XML tags on SQL scripts.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Andreabreu\\Zup2sql\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andre Abreu",
+            "email": "andre.abreu@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+      "ext-simplexml": "*",
+      "ext-pgsql": "*"
+    }
+}
